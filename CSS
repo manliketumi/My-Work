@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Applying a background color to the body and changing font properties */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #888; /* Dark gray text color */
+}
+
+/* Styling the header with a gradient background and centered text */
+header {
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling the sections with rounded borders, shadows, and a bit of margin */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling headings for a more pronounced look */
+h1 {
+    margin: 0;
+    font-size: 2em; /* Larger heading size */
+}
+
+h2 {
+    margin: 0 0 10px; /* Some bottom margin */
+    font-size: 1.5em; /* Slightly larger heading size */
+}
+
+/* Styling paragraphs */
+p {
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+/* Example of hover effect for links */
+a {
+    color: #2196F3;
+    transition: color 0.3s; /* Smooth color change over 0.3 seconds */
+}
+
+a:hover {
+    color: #1565C0; /* Darker color on hover */
+}
