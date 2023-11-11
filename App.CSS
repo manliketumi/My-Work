@@ -2,7 +2,7 @@
 
 /* Applying a background color to the body and changing font properties */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cambria, Cochin', 'Georgia, Times', 'Times New Roman', serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5; /* Light gray background */
